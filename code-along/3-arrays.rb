@@ -10,3 +10,20 @@
 
 # There are lots of fun things you can do with arrays:
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# create a list of fav foods
+fav_food = ["ice cream", "hot dogs"]
+# puts fav_food
+# puts fav_food[0]
+
+# add one more item in the list 
+fav_food.push("candy")
+
+# combine them together
+other_fav_food = ["berries", "banana"]
+all_fav_food = fav_food + other_fav_food
+# puts all_fav_food
+
+shopping_lists = [fav_food, other_fav_food]
+puts shopping_lists[1][0]
+puts shopping_lists
