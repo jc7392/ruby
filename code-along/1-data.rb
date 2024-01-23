@@ -5,14 +5,25 @@
 # In Ruby, there are different *types* of data:
 
 # Numbers
+puts 2
 
 # Non-numbers
+puts "tacos"
 
 # True, False
+puts true
 
-# Nothing
+# store data
+data = "hello"
+puts data
+puts data.reverse
 
 # Variables
+x = 7
+y = 8
+
+puts x 
+puts y
 
 # Combine strings and variables
 
