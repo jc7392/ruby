@@ -15,3 +15,12 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+her_shopping_lits = ["beer", "cookies", "apple"]
+my_shopping_lists = ["milk", "yogurt", "apple"]
+# total = her_shopping_lits + my_shopping_lists
+# total_updated = total.uniq
+# puts total_updated.sort
+
+sorted_list = (her_shopping_lits + my_shopping_lists).uniq.sort
+puts sorted_list

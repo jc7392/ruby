@@ -27,3 +27,4 @@ all_fav_food = fav_food + other_fav_food
 shopping_lists = [fav_food, other_fav_food]
 puts shopping_lists[1][0]
 puts shopping_lists
+puts "number of fav foods: #{all_fav_food.size}"
